@@ -1,4 +1,4 @@
-#script-and-tools
+# script-and-tools
 
 This repository contains a collection of Python and shell scripts.
 removesuffixoffile.sh
