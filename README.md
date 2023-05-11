@@ -93,7 +93,7 @@ In the separatefilesintofoldersbysuffix.sh script, update the directory variable
 directory="/path/to/directory"
 ```
 
-Running the Scripts
+### Running the Scripts
 
 After you have updated the scripts with your directories, you can run them from a terminal as follows:
 
@@ -105,7 +105,7 @@ bash removesuffixoffile.sh
 
 bash separatefilesintofoldersbysuffix.sh
 ```
-Changing Suffixes
+### Changing Suffixes
 
 The scripts are currently set up to work with file suffixes _above, _stairs, and _door. If you want to use different suffixes, you can change them in the scripts.
 
@@ -123,6 +123,6 @@ if [[ $file == *_your_suffix* ]]; then
     echo "Moving $file to $your_dir"
     mv "$file" "$your_dir"
 ```
-Contributing
+## Contributing
 
 Contributions to this repository are welcome. Feel free to submit a pull request with your script.
